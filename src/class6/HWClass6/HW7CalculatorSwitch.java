@@ -33,6 +33,6 @@ public class HW7CalculatorSwitch {
         String number1 = String.valueOf(num1);
         String number2 = String.valueOf(num2);
 
-        System.out.println(number1 + operator + number2 + "=" + answer);
+        System.out.println(number1 + " " + operator + " " + number2 + " = " + answer);
     }
 }
