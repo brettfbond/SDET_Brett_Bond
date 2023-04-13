@@ -6,7 +6,7 @@ public class HW7 {
         // From an array of integer elements find the largest number.
 
         int[] num = {54, 23, 185, 87, 72, 65};
-        int largest = 0;
+        int largest = num[0];
         for (int i : num) {
             if (i > largest){
                 largest = i;
