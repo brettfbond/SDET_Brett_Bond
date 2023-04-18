@@ -5,7 +5,7 @@ public class T10Duplicates {
 
         // Write a program to print out duplicate elements from
         // an Array of Strings?
-e
+
         String[] arrNames = {"John", "Samantha", "Alex", "Brett", "Samantha", "John", "Philip"};
 
         for (int i = 0; i < arrNames.length; i++) {

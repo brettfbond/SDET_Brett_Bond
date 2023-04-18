@@ -10,11 +10,11 @@ public class T06PrimeNumbers {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a number");
         int input = scan.nextInt();
-        for (int i = 2; i <= 32767; i++) {
+        for (int i = 2; i <= input; i++) {
             if (input % i == 0 && input != i) {
                 System.out.println(input + " is not a Prime number");
                 break;
-            } else if (i == 32767) {
+            } else if (i == input) {
                 System.out.println(input + " is a Prime number");
             }
 
