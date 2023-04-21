@@ -15,8 +15,7 @@ public class T04EvenOddSum {
             for (int i : number) {
                 if (i % 2 == 0){
                     sumEven += i;
-                }
-                if (i % 2 == 1){
+                } else {
                     sumOdd += i;
                 }
             }
