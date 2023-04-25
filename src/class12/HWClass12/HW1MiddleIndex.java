@@ -1,6 +1,6 @@
 package class12.HWClass12;
 
-public class T01String {
+public class HW1MiddleIndex {
     public static void main(String[] args) {
 
         // Create a String and if the String is not empty perform the following:
