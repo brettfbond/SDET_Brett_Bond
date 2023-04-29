@@ -18,6 +18,6 @@ public class T06PrimeNumbers {
                 System.out.println(input + " is a Prime number");
             }
 
-            }
         }
     }
+}
